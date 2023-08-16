@@ -31,14 +31,12 @@ a {
     text-decoration: none;
     color: #f9faf8;
 }
-/* gonna need padding around the content
-going to need to define the size of the containers */
+/* second section */
 .hero {
     background-color: #1F2937;
     display: flex;
     padding: 32px;
     justify-content: center;
-    border: 5px solid purple
 }
 
 .hero-text {
@@ -55,26 +53,57 @@ going to need to define the size of the containers */
 .intro-box {
     width: 500px;
     height: auto;
-    margin: 8px;
-    border: 5px solid red;
+    margin: 8px 12px;
 }
-/* fix this button */
-.button {
+
+button {
     background-color: #3882f6;
     color: white;
     border: none;
-    border-radius: 25px;
+    border-radius: 4px;
+    padding: 4px 10px;
+    font-size: 16px;
+    text-align: center;
 }
 
 .place-pic {
     width: 500px;
     height: auto;
     margin: 8px;
-    border: 5px solid blue;
 }
 
 .hero,
 img {
     max-width: 100%;
     height: auto;
+}
+
+/* thrid section */
+.card-header {
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.text {
+    text-align: center;
+}
+
+.box {
+    max-width: 250px;
+}
+
+/*find a way for the border to only surrond the image*/
+.cards,
+img {
+    border: 3px solid #3882f6;
 }
